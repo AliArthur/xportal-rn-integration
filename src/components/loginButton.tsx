@@ -1,5 +1,5 @@
 import {Pressable, StyleSheet, Text} from 'react-native';
-import useProvider from '../hooks/useProvider';
+import {useProvider} from '../wrapper/walletProvider';
 
 export default function LoginButton() {
   const {login, sign, provider} = useProvider();
